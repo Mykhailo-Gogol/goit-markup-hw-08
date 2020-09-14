@@ -1,0 +1,27 @@
+// Utils
+@import './base/normalize';
+@import './utils/variables';
+@import './base/reset';
+@import './utils/placeholders';
+@import './base/global';
+
+// Logo
+@import './components_index/logo';
+
+// Index
+@import './components_index/page_header';
+@import './components_index/hero';
+@import './components_index/features';
+@import './components_index/products';
+@import './components_index/team';
+@import './components_index/clients';
+@import './components_index/page_footer';
+
+// Modal
+@import './components_index/backdrop_modal';
+
+// Porfolio
+@import './components_portfolio/projects_container';
+@import './components_portfolio/filtres';
+@import './components_portfolio/projects';
+@import './components_portfolio/overlay';

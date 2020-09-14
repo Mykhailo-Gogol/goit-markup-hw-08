@@ -1,0 +1,40 @@
+// Navigation Logo
+
+.logo-container {
+  display: inline-block;
+
+  .font-logo {
+    font-family: $secondary-font-family;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+  }
+  
+  .color-logo {
+    color: $accent-page-color;
+  }
+  
+}
+
+// Footer Logo
+
+.logo-container-footer {
+  margin-bottom: 20px;
+
+  .font-logo {
+    font-family: $secondary-font-family;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+  }
+
+  .color-logo {
+    color: $accent-page-color;
+  }
+
+  .color-logo-footer {
+    color: $main-page-color;
+  }
+}

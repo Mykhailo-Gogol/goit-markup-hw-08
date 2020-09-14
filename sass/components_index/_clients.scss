@@ -1,0 +1,128 @@
+// Styles and Hover
+
+.h2-clients {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.ul-clients-flex {
+  display: flex;
+
+  li:not(:last-child){
+    margin-right: 30px;
+  }
+}
+
+// Hover
+
+.client-link {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    border-color: $accent-page-color;  
+  }
+}
+
+.client-icon1 {
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    fill:$accent-page-color;
+  }
+}
+
+.client-icon2 {
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    fill:$accent-page-color; 
+  }
+}
+
+.client-icon3 {
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    fill:$accent-page-color;
+  }
+}
+
+.client-icon4 {
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    fill:$accent-page-color;
+  }
+}
+
+.client-icon5 {
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    fill:$accent-page-color;
+  }
+}
+
+.client-icon6 {
+  @extend %hover-animation;
+
+  .clients-style-hover:hover & {
+    fill:$accent-page-color;
+  }
+}
+
+// Containers
+
+.client-icon1 {
+  margin: 20px 63px;
+  width: 43px;
+  height: 49px;
+  fill:#afb1b8;
+}
+
+.client-icon2 {
+  margin: 19px 65px;
+  width: 40px;
+  height: 52px;
+  fill:#afb1b8;
+}
+
+.client-icon3 {
+  margin: 24px 65px;
+  width: 40px;
+  height: 42px;
+  fill:#afb1b8;
+}
+
+.client-icon4 {
+  margin: 24px 45px;
+  width: 79px;
+  height: 42px;
+  fill:#afb1b8;
+}
+
+.client-icon5 {
+  margin: 22px 55px;
+  width: 59px;
+  height: 47px;
+  fill:#afb1b8;
+}
+
+.client-icon6 {
+  margin: 22px 41px;
+  width: 88px;
+  height: 45px;
+  fill:#afb1b8;
+}

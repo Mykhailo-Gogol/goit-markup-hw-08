@@ -1,0 +1,54 @@
+// Styles
+
+.h4-features {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondary-text-color;
+}
+
+.p-features {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $main-text-color;
+}
+
+// Containers
+
+.features {
+  margin: auto;
+  padding: 94px 0px 94px 0px;
+}
+
+.ul-features {
+  display: flex;
+}
+
+.ul-features {
+    li:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+
+.ul-features > li > h4 {
+  margin-bottom: 10px;
+}
+
+// Icons
+
+.bg-features {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.icon-features {
+  width: 70px;
+  height: 70px;
+}

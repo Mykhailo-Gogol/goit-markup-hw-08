@@ -1,0 +1,40 @@
+body {
+  font-family: $main-font-family;
+  background-color: $main-page-color;
+}
+
+a {
+  color: $secondary-text-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $secondary-text-color;
+    text-decoration: none;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color:$main-text-color
+}
+
+h1,
+h4,
+ul,
+button,
+span {
+  margin: 0;
+  padding: 0;
+}
