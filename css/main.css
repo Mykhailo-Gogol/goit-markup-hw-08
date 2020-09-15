@@ -248,13 +248,89 @@ summary {
   display: list-item;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
 }
 
 .container {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.logo-header {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.logo-header .logo-accent {
+  color: #2196F3;
+}
+
+.logo-header:visited {
+  color: #212121;
+}
+
+.logo-header:visited .logo-accent {
+  color: #2196F3;
+}
+
+.logo.text-center {
+  text-align: center;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.logo-footer .logo-accent {
+  color: #2196F3;
+}
+
+.logo-footer:visited {
+  color: #ffffff;
+}
+
+.logo-footer:visited .logo-accent {
+  color: #2196F3;
 }
 /*# sourceMappingURL=main.css.map */
