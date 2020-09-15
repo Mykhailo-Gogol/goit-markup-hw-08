@@ -1,0 +1,28 @@
+// Base
+@import './base/normalize';
+@import './base/reset';
+
+// Utils
+@import './utils/breakpoints';
+@import './utils/placeholders';
+
+// Componnts
+@import './components/container';
+@import './components/header';
+@import './components/footer';
+
+// Index
+@import './components/hero';
+@import './components/features';
+@import './components/product';
+@import './components/team';
+@import './components/clients';
+
+// Portfolio
+@import './components/filtres';
+@import './components/works';
+
+// Modal
+@import './components/modal';
+
+
