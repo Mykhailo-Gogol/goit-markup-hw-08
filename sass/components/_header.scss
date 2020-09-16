@@ -1,0 +1,13 @@
+// Mobile
+
+@media screen and (max-width: 767px) {
+  .navigation-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .link-list,
+  .contact-list {
+    display: none;
+  }
+}

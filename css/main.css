@@ -286,6 +286,22 @@ a:visited {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .navigation-header {
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .link-list,
+  .contact-list {
+    display: none;
+  }
+}
+
 .logo-header {
   font-family: Raleway;
   font-style: normal;
@@ -308,10 +324,6 @@ a:visited {
   color: #2196F3;
 }
 
-.logo.text-center {
-  text-align: center;
-}
-
 .logo-footer {
   font-family: Raleway;
   font-style: normal;
@@ -332,5 +344,11 @@ a:visited {
 
 .logo-footer:visited .logo-accent {
   color: #2196F3;
+}
+
+@media screen and (max-width: 767px) {
+  .text-center {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
