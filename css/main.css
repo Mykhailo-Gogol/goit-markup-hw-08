@@ -253,7 +253,7 @@ body {
   padding: 0;
 }
 
-ul {
+ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -266,6 +266,14 @@ a:visited {
 
 h1, h2, h4, p {
   margin: 0;
+  padding: 0;
+}
+
+.clients-item:hover .client-link, .clients-item:hover .client-icon-1, .clients-item:hover .client-icon-2, .clients-item:hover .client-icon-3, .clients-item:hover .client-icon-4, .clients-item:hover .client-icon-5, .clients-item:hover .client-icon-6 {
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -369,6 +377,11 @@ h1, h2, h4, p {
   .text-center {
     text-align: center;
   }
+}
+
+.footer {
+  padding: 60px 0;
+  background: #2F303A;
 }
 
 .hero {
@@ -551,6 +564,34 @@ h1, h2, h4, p {
   }
 }
 
+.clients-item:hover .client-link {
+  border-color: #2196F3;
+}
+
+.clients-item:hover .client-icon-1 {
+  fill: #2196f3;
+}
+
+.clients-item:hover .client-icon-2 {
+  fill: #2196f3;
+}
+
+.clients-item:hover .client-icon-3 {
+  fill: #2196f3;
+}
+
+.clients-item:hover .client-icon-4 {
+  fill: #2196f3;
+}
+
+.clients-item:hover .client-icon-5 {
+  fill: #2196f3;
+}
+
+.clients-item:hover .client-icon-6 {
+  fill: #2196f3;
+}
+
 .clients {
   padding: 60px 0;
 }
@@ -563,11 +604,87 @@ h1, h2, h4, p {
   color: #212121;
 }
 
+.clients-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.client-link {
+  display: inline-block;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.client-icon-fill {
+  fill: #AFB1B8;
+}
+
 @media screen and (max-width: 1199px) {
   .h2-clients {
     margin-bottom: 30px;
     font-size: 28px;
     line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients-item {
+    margin-bottom: 30px;
+  }
+  .clients-item:nth-child(2n+1) {
+    margin-right: 15px;
+  }
+  .clients-item:nth-child(2n) {
+    margin-left: 15px;
+  }
+  .clients-item:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .clients-item:nth-child(6) {
+    margin-bottom: 0;
+  }
+  .client-link {
+    width: 210px;
+    height: 90px;
+  }
+  .client-icon-1 {
+    margin: 20px 83px;
+    width: 44px;
+    height: 49px;
+    fill: #afb1b8;
+  }
+  .client-icon-2 {
+    margin: 19px 85px;
+    width: 40px;
+    height: 52px;
+    fill: #afb1b8;
+  }
+  .client-icon-3 {
+    margin: 24px 85px;
+    width: 40px;
+    height: 42px;
+    fill: #afb1b8;
+  }
+  .client-icon-4 {
+    margin: 24px 65px;
+    width: 79px;
+    height: 42px;
+    fill: #afb1b8;
+  }
+  .client-icon-5 {
+    margin: 22px 75px;
+    width: 59px;
+    height: 47px;
+    fill: #afb1b8;
+  }
+  .client-icon-6 {
+    margin: 22px 61px;
+    width: 88px;
+    height: 45px;
+    fill: #afb1b8;
   }
 }
 /*# sourceMappingURL=main.css.map */
