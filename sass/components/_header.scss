@@ -5,9 +5,22 @@
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .link-list,
   .contact-list {
     display: none;
+  }
+
+  .drop-menu {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/svg/drop-menu.svg);
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    background-position: center;
+    border: none;
+    // outline:none;
   }
 }
