@@ -1,0 +1,21 @@
+.clients {
+  padding: 60px 0;
+}
+
+.h2-clients {
+  font-family: Roboto;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+@media screen and (max-width: 1199px) {
+  .h2-clients {
+    margin-bottom: 30px;
+
+    font-size: 28px;
+    line-height: 33px;
+  }
+}

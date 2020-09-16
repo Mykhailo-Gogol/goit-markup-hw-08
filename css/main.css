@@ -255,12 +255,17 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
 a,
 a:visited {
   text-decoration: none;
+}
+
+h1, h2, h4, p {
+  margin: 0;
 }
 
 .container {
@@ -455,6 +460,114 @@ a:visited {
 @media screen and (max-width: 767px) {
   .product {
     display: none;
+  }
+}
+
+.team {
+  padding: 60px 0;
+  background-color: #F5F4FA;
+}
+
+.h2-team {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-card {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 30px;
+}
+
+.card-desc {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.team-soclinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.soclink-bg {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+.soclink {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+@media screen and (max-width: 1199px) {
+  .h2-team {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team-card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .team-card {
+    padding-bottom: 24px;
+    width: 450px;
+  }
+  .team-card img {
+    display: block;
+    width: 450px;
+    height: 460px;
+  }
+  .team-soclinks {
+    margin-top: 16px;
+  }
+}
+
+.clients {
+  padding: 60px 0;
+}
+
+.h2-clients {
+  font-family: Roboto;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+@media screen and (max-width: 1199px) {
+  .h2-clients {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 33px;
   }
 }
 /*# sourceMappingURL=main.css.map */
