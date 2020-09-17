@@ -4,9 +4,9 @@ function myFunction() {
 }
 
 // function myFunctionMenu() {
-let toggleMenu = document.getElementById("myIdMenu");
-toggleMenu.addEventListener('click', function () {
+function myFunctionMenu() {
+  let toggleMenu = document.getElementById("myIdMenu");
   toggleMenu.classList.toggle("is-open");
-})
+}
   // toggleMenu.classList.toggle("is-open");
 // }
