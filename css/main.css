@@ -324,12 +324,28 @@ h1, h2, h4, p {
     background-color: Transparent;
     border: none;
   }
-  .menu-icon {
+  .drop-menu svg {
     width: 40px;
     height: 40px;
     fill: #000;
   }
-  :hover .menu-icon {
+  :active svg .icon-open {
+    fill: #2196F3;
+  }
+  :active svg .icon-close {
+    fill: #2196F3;
+  }
+  .icon-open {
+    display: block;
+  }
+  .icon-close {
+    display: none;
+  }
+  .is-open .icon-open {
+    display: none;
+  }
+  .is-open .icon-close {
+    display: block;
     fill: #2196F3;
   }
 }
@@ -468,12 +484,6 @@ h1, h2, h4, p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .subscribe-input {

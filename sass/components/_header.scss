@@ -18,15 +18,37 @@
     height: 40px;
     background-color: Transparent;
     border: none;
+    svg {
+      width: 40px;
+      height: 40px;
+      fill: #000;
+    }
   }
-  .menu-icon {
-    width: 40px;
-    height: 40px;
-    fill: #000;
-  }
-  &:hover {
-    .menu-icon {
+
+
+  &:active {
+    svg .icon-open{
+      fill: #2196F3;
+    }
+    svg .icon-close{
       fill: #2196F3;
     }
   }
+
+  .icon-open {
+    display: block;  
+  }
+  .icon-close {
+    display: none;
+  }
+  .is-open {
+    .icon-open {
+      display: none;
+    }
+    .icon-close {
+      display: block;
+      fill: #2196F3
+    }
+  }
 }
+
