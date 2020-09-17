@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: space-between;
   }
+  
   .link-list,
   .contact-list {
     display: none;
@@ -18,6 +19,7 @@
     height: 40px;
     background-color: Transparent;
     border: none;
+
     svg {
       width: 40px;
       height: 40px;
@@ -36,19 +38,18 @@
   }
 
   .icon-open {
-    display: block;  
+    display: block; 
   }
   .icon-close {
     display: none;
   }
   .is-open {
+
     .icon-open {
       display: none;
     }
     .icon-close {
       display: block;
-      fill: #2196F3
     }
   }
 }
-

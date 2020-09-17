@@ -1,9 +1,9 @@
 function myFunction() {
-  let element = document.getElementById("myId");
-  element.classList.toggle("is-hidden");
+  let toggleModal = document.getElementById("myId");
+  toggleModal.classList.toggle("is-hidden");
 }
 
 function myFunctionMenu() {
-  let element = document.getElementById("myIdMenu");
-  element.classList.toggle("is-open");
+  let toggleMenu = document.getElementById("myIdMenu");
+  toggleMenu.classList.toggle("is-open");
 }
