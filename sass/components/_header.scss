@@ -26,6 +26,8 @@
       fill: #000;
     }
     &:active {
+      margin: 0;
+      padding: 0;
       svg .icon-open{
         fill: #2196F3;
       }

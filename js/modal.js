@@ -1,3 +1,5 @@
+'use strict';
+
 function myFunction() {
   let toggleModal = document.getElementById("myId");
   toggleModal.classList.toggle("is-hidden");

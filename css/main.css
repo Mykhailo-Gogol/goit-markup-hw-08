@@ -329,6 +329,10 @@ h1, h2, h4, p {
     height: 40px;
     fill: #000;
   }
+  .drop-menu:active {
+    margin: 0;
+    padding: 0;
+  }
   .drop-menu:active svg .icon-open {
     fill: #2196F3;
   }
