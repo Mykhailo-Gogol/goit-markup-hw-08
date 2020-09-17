@@ -25,31 +25,29 @@
       height: 40px;
       fill: #000;
     }
-  }
-
-
-  &:active {
-    svg .icon-open{
-      fill: #2196F3;
-    }
-    svg .icon-close{
-      fill: #2196F3;
+    &:active {
+      svg .icon-open{
+        fill: #2196F3;
+      }
+      svg .icon-close{
+        fill: #2196F3;
+      }
     }
   }
 
   .icon-open {
-    display: block; 
+    opacity: 1
   }
   .icon-close {
-    display: none;
+    opacity: 0
   }
-  .is-open {
 
+  .is-open {
     .icon-open {
-      display: none;
+      opacity: 0
     }
     .icon-close {
-      display: block;
+      opacity: 1
     }
   }
 }
