@@ -3,7 +3,10 @@ function myFunction() {
   toggleModal.classList.toggle("is-hidden");
 }
 
-function myFunctionMenu() {
-  let toggleMenu = document.getElementById("myIdMenu");
+// function myFunctionMenu() {
+let toggleMenu = document.getElementById("myIdMenu");
+toggleMenu.addEventListener('click', function () {
   toggleMenu.classList.toggle("is-open");
-}
+})
+  // toggleMenu.classList.toggle("is-open");
+// }
