@@ -346,6 +346,7 @@ h1, h2, h4, p {
   }
   .is-open .icon-close {
     display: block;
+    fill: #2196F3;
   }
   .header {
     position: relative;
@@ -431,6 +432,12 @@ h1, h2, h4, p {
     line-height: 21px;
     letter-spacing: 0.02em;
     color: #757575;
+  }
+  .contact-list .flex:hover .icon-mail {
+    fill: #2196F3;
+  }
+  .contact-list .flex:hover .icon-phone {
+    fill: #2196F3;
   }
 }
 

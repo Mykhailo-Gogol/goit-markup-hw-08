@@ -46,6 +46,7 @@
     }
     .icon-close {
       display: block;
+      fill: #2196F3;
     }
    }
 
@@ -113,6 +114,8 @@
       justify-content: center;
     }
 
+
+
     .icon-mail {
       width: 16px;
       height: 12px;
@@ -136,5 +139,16 @@
 
       color: #757575;
       } 
+      .flex:hover {
+        // .link{
+        // color: #2196F3;
+        // }
+        .icon-mail {
+          fill: #2196F3;
+        }
+        .icon-phone {
+          fill: #2196F3;
+        }
+      }
     }
   }
