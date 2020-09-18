@@ -54,7 +54,7 @@
   }
 
   .mobile-menu {
-    display: block;
+    display: none;
     position: absolute;
     top: 60px;
     left: 0;
@@ -62,6 +62,9 @@
     padding: 60px 0;
     background: #fff;
     border-top: 1px solid #ECECEC;
+    &.is-open {
+      display: block;
+    }
   }
   .link-list li:not(:last-child) {  
     margin-bottom: 40px;

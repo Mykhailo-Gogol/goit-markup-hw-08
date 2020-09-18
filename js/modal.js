@@ -5,8 +5,10 @@ function myFunction() {
 
 // function myFunctionMenu() {
 function myFunctionMenu() {
-  let toggleButton = document.getElementById("myIdMenu", "myMobileMenu");
+  let toggleButton = document.getElementById("myIdMenu");
+  let toggleMenu = document.getElementById("myMenu");
   toggleButton.classList.toggle("is-open");
+  toggleMenu.classList.toggle("is-open");
 }
   // toggleMenu.classList.toggle("is-open");
 // }

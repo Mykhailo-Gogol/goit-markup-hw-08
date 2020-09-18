@@ -351,7 +351,7 @@ h1, h2, h4, p {
     position: relative;
   }
   .mobile-menu {
-    display: block;
+    display: none;
     position: absolute;
     top: 60px;
     left: 0;
@@ -359,6 +359,9 @@ h1, h2, h4, p {
     padding: 60px 0;
     background: #fff;
     border-top: 1px solid #ECECEC;
+  }
+  .mobile-menu.is-open {
+    display: block;
   }
   .link-list li:not(:last-child) {
     margin-bottom: 40px;
