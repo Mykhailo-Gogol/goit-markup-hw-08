@@ -7,11 +7,6 @@
     align-items: center;
     justify-content: space-between;
   }
-  
-  .link-list,
-  .contact-list {
-    display: none;
-  }
 
   .drop-menu {
     padding: 0;
@@ -25,6 +20,7 @@
       height: 40px;
       fill: #000;
     }
+
     &:active {
       margin: 0;
       padding: 0;
@@ -38,18 +34,104 @@
   }
 
   .icon-open {
-    opacity: 1
+    display: block;
   }
   .icon-close {
-    opacity: 0
+    display: none;
   }
 
   .is-open {
     .icon-open {
-      opacity: 0
+      display: none;
     }
     .icon-close {
-      opacity: 1
+      display: block;
+    }
+   }
+
+  .header {
+    position: relative;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 60px 0;
+    background: #fff;
+    border-top: 1px solid #ECECEC;
+  }
+  .link-list li:not(:last-child) {  
+    margin-bottom: 40px;
+  }
+  .mobile-menu li {
+    text-align: center;
+  }
+  .mobile-menu .link {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    &:hover {
+      color: #2196F3;
     }
   }
-}
+
+  .link-list .studio {
+    color: #2196F3;
+  }
+  .link-list .studio:after {
+    content: '';
+    display: block;
+
+    background: #2196F3;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 61px;
+    height: 4px;
+    margin-top: 8px;
+  }
+
+  .contact-list {
+    margin-top: 60px;
+
+    li:not(:first-child) {
+      margin-top: 16px;
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon-mail {
+      width: 16px;
+      height: 12px;
+      fill: #757575;
+      margin-right: 10px;
+    }
+    .icon-phone {
+      width: 10px;
+      height: 15px;
+      fill: #757575;
+      margin-right: 10px;
+    }
+
+    .link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+
+      color: #757575;
+      } 
+    }
+  }

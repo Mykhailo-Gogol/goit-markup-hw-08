@@ -313,10 +313,6 @@ h1, h2, h4, p {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .link-list,
-  .contact-list {
-    display: none;
-  }
   .drop-menu {
     padding: 0;
     width: 40px;
@@ -340,16 +336,98 @@ h1, h2, h4, p {
     fill: #2196F3;
   }
   .icon-open {
-    opacity: 1;
+    display: block;
   }
   .icon-close {
-    opacity: 0;
+    display: none;
   }
   .is-open .icon-open {
-    opacity: 0;
+    display: none;
   }
   .is-open .icon-close {
-    opacity: 1;
+    display: block;
+  }
+  .header {
+    position: relative;
+  }
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 60px 0;
+    background: #fff;
+    border-top: 1px solid #ECECEC;
+  }
+  .link-list li:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .mobile-menu li {
+    text-align: center;
+  }
+  .mobile-menu .link {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
+  .mobile-menu .link:hover {
+    color: #2196F3;
+  }
+  .link-list .studio {
+    color: #2196F3;
+  }
+  .link-list .studio:after {
+    content: '';
+    display: block;
+    background: #2196F3;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 61px;
+    height: 4px;
+    margin-top: 8px;
+  }
+  .contact-list {
+    margin-top: 60px;
+  }
+  .contact-list li:not(:first-child) {
+    margin-top: 16px;
+  }
+  .contact-list .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-list .icon-mail {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    margin-right: 10px;
+  }
+  .contact-list .icon-phone {
+    width: 10px;
+    height: 15px;
+    fill: #757575;
+    margin-right: 10px;
+  }
+  .contact-list .link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
 }
 
