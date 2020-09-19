@@ -27,13 +27,13 @@
           <ul class="contact-list">
             <li class="flex">
               <svg class="icon-mail">
-                <use href="IMG/sprite.svg#icon-envelope"></use>
+                <use href="./img/sprite.svg#icon-envelope"></use>
               </svg>
               <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
             <li class="flex">
               <svg class="icon-phone">
-                <use href="IMG/sprite.svg#icon-smartphone"></use>
+                <use href="./img/sprite.svg#icon-smartphone"></use>
               </svg>
               <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
@@ -343,7 +343,7 @@
     <div class="modal">
 
       <button onclick="myFunction()" class="close-btn">
-        <svg class="icon-close">
+        <svg class="icon-close-form">
           <use href="./img/sprite-form.svg#icon-close"></use>
         </svg>
       </button>
@@ -380,12 +380,14 @@
             </svg>
           </div>
 
-          <label for="comments" class="form-label">Комментарий</label>
-          <textarea name="comments" id="comments" class="form-textarea" placeholder="Введите текст"></textarea>
+          <div class="icon-field form-flex">
+            <label for="comments" class="form-label ">Комментарий</label>
+            <textarea name="comments" id="comments" class="form-textarea" placeholder="Введите текст"></textarea>
+          </div>
 
           <label class="field">
             <input type="checkbox" class="checkbox" name="policy">
-            <span class="icon"></span>
+            <span class="icon-checkbox"></span>
 
             <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="">Условия
                 договора</a></span>
