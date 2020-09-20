@@ -20,33 +20,40 @@
     <div class="container">
       <nav class="navigation-header">
         <a href="index.html" class="logo-header"><span class="logo-accent">Web</span>Studio</a>
-        <ul class="link-list">
-          <li><a href="index.html" class="link">Студия</a></li>
-          <li><a href="portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="index.html" class="link">Контакты</a></li>
-        </ul>
-        <ul class="contact-list">
-          <li class="flex">
-            <svg class="icon-mail">
-              <use href="IMG/sprite.svg#icon-envelope"></use>
-            </svg>
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
-          <li class="flex">
-            <svg class="icon-phone">
-              <use href="IMG/sprite.svg#icon-smartphone"></use>
-            </svg>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
-        </ul>
-        <button class="drop-menu"></button>
+        <div id="myMenu" class="mobile-menu">
+          <ul class="link-list">
+            <li><a href="index.html" class="link studio">Студия</a></li>
+            <li><a href="portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="index.html" class="link">Контакты</a></li>
+          </ul>
+          <ul class="contact-list">
+            <li class="flex">
+              <svg class="icon-mail">
+                <use href="./img/sprite.svg#icon-envelope"></use>
+              </svg>
+              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+            <li class="flex">
+              <svg class="icon-phone">
+                <use href="./img/sprite.svg#icon-smartphone"></use>
+              </svg>
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+        <button onclick="myFunctionMenu()" id="myIdMenu" class="drop-menu">
+          <svg>
+            <use class="icon-open" href="./img/sprite-mobile.svg#icon-drop-menu"></use>
+            <use class="icon-close" href="./img/sprite-mobile.svg#icon-close-header"></use>
+          </svg>
+        </button>
       </nav>
     </div>
   </header>
 
   <section class="portfolio">
     <div class="container">
-      <div class="filtre">
+      <div class="filtres">
         <button class="btn-portfolio">
           <span class="btn-text">Все</span>
         </button>
@@ -256,6 +263,70 @@
       </div>
     </div>
   </footer>
+
+  <!-- Backdrop Modal -->
+  <div class="backdrop is-hidden" id="myId">
+
+    <div class="modal">
+
+      <button onclick="myFunction()" class="close-btn">
+        <svg class="icon-close-form">
+          <use href="./img/sprite-form.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <div class="form-container">
+        <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+        <form class="form-flex">
+
+          <div class="icon-field form-flex">
+
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" name="name" id="name" class="form-input">
+            <svg class="icon-form">
+              <use href="./img/sprite-form.svg#icon-form-name"></use>
+            </svg>
+          </div>
+
+          <div class="icon-field form-flex">
+
+            <label for="tel" class="form-label">Телефон</label>
+            <input type="tel" name="tel" id="tel" class="form-input">
+            <svg class="icon-form">
+              <use href="./img/sprite-form.svg#icon-form-phone"></use>
+            </svg>
+          </div>
+
+          <div class="icon-field form-flex">
+
+            <label for="email" class="form-label">Почта</label>
+            <input type="email" name="email" id="email" class="form-input">
+            <svg class="icon-form">
+              <use href="./img/sprite-form.svg#icon-form-email"></use>
+            </svg>
+          </div>
+
+          <div class="icon-field form-flex">
+            <label for="comments" class="form-label ">Комментарий</label>
+            <textarea name="comments" id="comments" class="form-textarea" placeholder="Введите текст"></textarea>
+          </div>
+
+          <label class="field">
+            <input type="checkbox" class="checkbox" name="policy">
+            <span class="icon-checkbox"></span>
+
+            <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="">Условия
+                договора</a></span>
+          </label>
+
+          <button type="submit" class="btn-submit">Отправить</button>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
 
   <!-- Script -->
   <script src="./JS/modal.js"></script>

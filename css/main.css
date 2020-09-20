@@ -1026,6 +1026,10 @@ h1, h2, h4, p {
   }
 }
 
+.portfolio {
+  border-top: 1px solid #ECECEC;
+}
+
 @media screen and (max-width: 1199px) {
   .is-hidden {
     visibility: hidden;
@@ -1239,7 +1243,7 @@ h1, h2, h4, p {
     width: 16px;
     height: 15px;
     margin-right: 6px;
-    background-image: url("../IMG/svg/icon-checkbox.svg");
+    background-image: url("../img/svg/icon-checkbox.svg");
   }
   .label {
     font-weight: 400;
@@ -1252,7 +1256,7 @@ h1, h2, h4, p {
   .checkbox:checked + .icon-checkbox {
     border-color: transparent;
     background-color: #2196F3;
-    background-image: url("../IMG/svg/icon-check.svg");
+    background-image: url("../img/svg/icon-check.svg");
     background-size: contain;
     background-origin: border-box;
   }
