@@ -937,7 +937,62 @@ h1, h2, h4, p {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .features {
+    padding: 60px 0;
+  }
+  .features-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .features-set .features-item {
+    width: calc((100% - 30px) / 2);
+  }
+  .features-item:nth-child(2n - 1) {
+    margin-right: 30px;
+  }
+  .features-item:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  .features-item:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .icon-background {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 0;
+  }
+  .icon-background .icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+  }
+  .h4-features {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  .p-features {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .product {
     display: none;
   }
@@ -1020,29 +1075,53 @@ h1, h2, h4, p {
   .soclink-list {
     margin-top: 16px;
   }
-}
-
-.team-card {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 24px;
-  width: 100%;
-}
-
-.team-card img {
-  display: block;
-  width: 100%;
-}
-
-@media screen and (min-width: 480px) {
   .team-card {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 24px;
-    width: 450px img;
-    width-display: block;
-    width-width: 100%;
-    width-height: 460px;
+    width: 100%;
+  }
+  .team-card img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .team-card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .team-card {
+    width: calc((100% - 34px)/2);
+  }
+  .team-card img {
+    display: block;
+    width: 100%;
+  }
+  .team-card:nth-child(2n-1) {
+    margin-right: 30px;
+  }
+  .team-card:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  .team-card:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .soclink-list {
+    margin-top: 16px;
+    margin-bottom: 24px;
   }
 }
 
