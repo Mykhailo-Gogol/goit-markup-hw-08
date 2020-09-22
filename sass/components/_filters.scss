@@ -1,6 +1,7 @@
 // Mobile
 
 .btn-portfolio {
+  display: block;
   padding: 6px 22px;
 
   height: 38px;
@@ -27,7 +28,8 @@
 @media screen and (max-width:767px) {
   .filtres {
     margin-bottom: 40px;
-
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .btn-portfolio:not(:last-child) {
