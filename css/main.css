@@ -1580,7 +1580,7 @@ h1, h2, h4, p {
   }
   .project-card {
     display: block;
-    width: 354px;
+    width: calc((100% - 30px) / 2);
     margin-bottom: 30px;
   }
   .project-card a:hover .text {
