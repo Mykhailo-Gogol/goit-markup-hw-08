@@ -56,3 +56,16 @@
     margin-right: 8px;
   }
 }
+
+// Desktop
+@media screen and (min-width: 1200px) {
+  .filtres {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+    .btn-portfolio:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}

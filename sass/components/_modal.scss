@@ -230,8 +230,6 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.03em;
-
-    letter-spacing: 0.03em;
   
     color: #757575;
   }
@@ -244,6 +242,9 @@
     background-origin: border-box;
   }
 }
+
+
+
 
 // Desktop
 @media screen and (min-width: 1200px) {
@@ -396,8 +397,8 @@
   
     .form-textarea::placeholder {
       font-family: Roboto;
-      font-size: 14px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 14px;
       letter-spacing: 0.01em;
   
       color: rgba(117, 117, 117, 0.5);
@@ -433,11 +434,12 @@
   .field {
     display: flex;
     align-items: center;
+    padding-left: 12px;
 
     margin-top: 20px;
     font-family: Roboto;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 24px;
     letter-spacing: 0.03em;
 
     color: #757575;
@@ -457,11 +459,9 @@
   }
 
   .label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.03em;
-
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
     letter-spacing: 0.03em;
   
     color: #757575;
