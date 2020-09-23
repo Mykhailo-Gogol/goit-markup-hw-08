@@ -224,6 +224,19 @@
         margin-top: 28px;
       }
     }
+    .underline-portfolio {
+      color: #2196F3;
+
+      &:after {
+        content: '';
+        display: block;
+    
+        background: #2196F3;
+        border-radius: 2px;
+        height: 4px;
+        margin-top: 28px;
+      }
+    }
   }
   .contact-list {
     height: 80px;

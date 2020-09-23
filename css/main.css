@@ -504,6 +504,17 @@ h1, h2, h4, p {
     height: 4px;
     margin-top: 28px;
   }
+  .link-list .underline-portfolio {
+    color: #2196F3;
+  }
+  .link-list .underline-portfolio:after {
+    content: '';
+    display: block;
+    background: #2196F3;
+    border-radius: 2px;
+    height: 4px;
+    margin-top: 28px;
+  }
   .contact-list {
     height: 80px;
     padding: 21px 0;
@@ -1380,15 +1391,24 @@ h1, h2, h4, p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .filtres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .btn-portfolio:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
 .portfolio {
   border-top: 1px solid #ECECEC;
   padding: 60px 0;
-}
-
-.project-card {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .project-card:hover {
@@ -1456,6 +1476,11 @@ h1, h2, h4, p {
 }
 
 @media screen and (max-width: 767px) {
+  .project-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .project-card:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1533,10 +1558,122 @@ h1, h2, h4, p {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .project-card {
     width: 450px;
     height: 404px;
+  }
+  .project-card a:hover .text {
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .project-card {
+    display: block;
+    width: 354px;
+    margin-bottom: 30px;
+  }
+  .project-card a:hover .text {
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+  }
+  .project-card:nth-child(2n-1) {
+    margin-right: 30px;
+  }
+  .project-card:nth-child(8) {
+    margin-bottom: 0;
+  }
+  .project-card:nth-child(9) {
+    margin-bottom: 0;
+  }
+  .project-card:nth-child(1) {
+    height: 404px;
+  }
+  .project-card:nth-child(8) {
+    height: 404px;
+  }
+  .img-contain-1 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(1).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-2 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(2).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-3 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(3).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-4 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(4).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-5 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(5).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-6 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(6).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-7 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(7).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-8 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(8).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-contain-9 {
+    width: 100%;
+    height: 100%;
+    background: url("../img/projects/img(9).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 

@@ -44,3 +44,15 @@
     margin-top: 15px;
   }
 }
+
+// Tablet
+@media screen and (min-width:768px) and (max-width:1199px) {
+  .filtres {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .btn-portfolio:not(:last-child) {
+    margin-right: 8px;
+  }
+}
