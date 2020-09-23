@@ -558,6 +558,124 @@ h1, h2, h4, p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .drop-menu {
+    display: none;
+  }
+  .navigation-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .link-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 93px;
+    margin-right: 305px;
+  }
+  .link-list li:not(:last-child) {
+    margin-right: 50px;
+  }
+  .link-list .link {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding: 32px 0;
+    height: 80px;
+  }
+  .link-list .link:hover {
+    color: #2196F3;
+  }
+  .link-list .underline-studio {
+    color: #2196F3;
+  }
+  .link-list .underline-studio:after {
+    content: '';
+    display: block;
+    background: #2196F3;
+    border-radius: 2px;
+    height: 4px;
+    margin-top: 28px;
+  }
+  .link-list .underline-portfolio {
+    color: #2196F3;
+  }
+  .link-list .underline-portfolio:after {
+    content: '';
+    display: block;
+    background: #2196F3;
+    border-radius: 2px;
+    height: 4px;
+    margin-top: 28px;
+  }
+  .contact-list {
+    height: 80px;
+    padding: 21px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-list .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-list .flex:not(:last-child) {
+    margin-right: 30px;
+  }
+  .contact-list .flex:hover .icon-mail {
+    fill: #2196F3;
+  }
+  .contact-list .flex:hover .icon-phone {
+    fill: #2196F3;
+  }
+  .contact-list .flex:hover .link {
+    color: #2196F3;
+  }
+  .contact-list .icon-mail {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    margin-right: 10px;
+  }
+  .contact-list .icon-phone {
+    width: 10px;
+    height: 15px;
+    fill: #757575;
+    margin-right: 10px;
+  }
+  .contact-list .link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+}
+
 .logo-header {
   font-family: Raleway;
   font-style: normal;
@@ -605,6 +723,33 @@ h1, h2, h4, p {
 @media screen and (max-width: 767px) {
   .text-center {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-header {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .logo-header .logo-accent {
+    color: #2196F3;
+  }
+  .logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+  .logo-footer .logo-accent {
+    color: #2196F3;
   }
 }
 
@@ -940,6 +1085,43 @@ h1, h2, h4, p {
     font-weight: 900;
     font-size: 26px;
     line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .button-hero {
+    display: block;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2196F3;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0;
+  }
+  .h1-hero {
+    margin: auto;
+    width: 696px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;

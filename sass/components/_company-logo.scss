@@ -47,3 +47,30 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .logo-header {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #212121;
+      .logo-accent {
+        color: #2196F3;
+      }
+  }
+  .logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    .logo-accent {
+      color: #2196F3;
+    }
+  }
+}
