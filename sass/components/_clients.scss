@@ -19,24 +19,24 @@
   justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  transition: 500ms;
+  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon-fill {
   fill:  #AFB1B8;
-  transition: 500ms;
+  transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item:hover {
   .client-link {
     border-color: #2196F3;
-    transition: 500ms;
+    transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .client-icon-fill {
-    transition: 500ms;
+    transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     fill:#2196f3;
   }
@@ -137,6 +137,38 @@
       margin-right: 30px;
     }
     &:nth-child(5) {
+      margin-right: 30px;
+    }
+  }
+}
+
+// Desktop
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding: 94px 0;
+  }
+  .clients-list{
+    display: flex;
+    margin-top: 50px;
+  }
+  .h2-clients {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+  }
+  .client-link {
+    height: 90px;
+    width: 170px;
+  }
+  .clients-item {
+    width: calc((100% - 5*30px) / 6);
+
+    &:not(:last-child) {
       margin-right: 30px;
     }
   }

@@ -104,3 +104,55 @@
     color: #757575;
   }
 }
+
+// Desktop
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-top: 94px;
+  }
+  .features-set {
+    display: flex;
+    .features-item {
+      width: 270px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+  .icon-background {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 0;
+
+    .icon {
+      display: block;
+      width: 70px;
+      height: 70px;
+      margin: auto;
+    }
+  }
+  .h4-features {
+    margin-top: 30px;
+
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+  }
+  .p-features {
+    margin-top: 10px;
+    
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+  }
+}

@@ -210,3 +210,45 @@ border-radius: 4px;
     margin-top: 20px;
   }
 }
+
+// Desktop
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 60px 0;
+    background: #2F303A;
+    .flex {
+      display: flex;
+    }
+  }
+  .info {
+    margin-right: 70px;
+    width: 231px;
+    .address-container {
+      width: 231px;
+    }
+  }
+  .soclink-info {
+    padding-top: 12px;
+    margin-right: 93px;
+    .welcome-footer {
+      text-align: left;
+    }
+    .soclink-item:hover {
+      .footer-soclink-bg {
+        background: #2196F3;
+      }
+    }
+  }
+
+  .subscribe{
+    padding-top: 12px;
+  }
+  .subscribe-flex {
+    display: flex;
+    .subscribe-input {
+      width: 358px;
+      margin-top: 20px;
+      margin-right: 12px;
+    }
+  }
+}

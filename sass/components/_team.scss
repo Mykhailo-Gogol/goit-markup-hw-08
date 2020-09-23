@@ -54,9 +54,12 @@
 }
 
 .soclink-bg {
+  display: block;
   width: 44px;
   height: 44px;
   padding: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .soclink {
@@ -125,5 +128,62 @@
   .soclink-list {
     margin-top: 16px;
     margin-bottom: 24px;
+  }
+}
+
+// Desktop
+@media screen and (min-width: 1200px) {
+  .team {
+    padding: 94px 0;
+  }
+  .h2-team {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+  }
+  .team-list {
+    margin-top: 50px;
+    display: flex;
+  }
+  .team-card {
+    width: 270px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  .soclink-list {
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+  .soclink-bg {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .soclink-item {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+    &:hover {
+      .soclink-bg {
+        background: #2196F3;
+        border-radius: 50%;
+      }
+      .soclink {
+        fill: #fff;
+      }
+    }
   }
 }
