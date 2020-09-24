@@ -19,20 +19,20 @@
 }
 
 .portfolio-card-name {
-  font-family: Roboto;
+  font-family: $main-font-family;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: $secondary-text-color;
 }
 
 .portfolio-card-desc {
-  font-family: Roboto;
+  font-family: $main-font-family;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $main-text-color;
 }
 
 .animation-overlay {
@@ -58,12 +58,12 @@
 
     background: rgba(33, 150, 243, 0.9);
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: $main-page-color;
 
     transition: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

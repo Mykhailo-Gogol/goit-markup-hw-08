@@ -10,7 +10,7 @@
   }
   
   .icon-background {
-    background: #F5F4FA;
+    background: $secondary-page-color;
     border-radius: 4px;
     padding: 25px 0;
 
@@ -21,29 +21,31 @@
       margin: auto;
     }
   }
+
   .h3-features {
     margin-top: 30px;
     text-align: center;
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+    color: $secondary-text-color;
   }
+
   .p-features {
     margin-top: 10px;
     
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: $main-text-color;
   }
 }
 
@@ -69,7 +71,7 @@
     margin-bottom: 30px;
   }
   .icon-background {
-    background: #F5F4FA;
+    background: $secondary-page-color;
     border-radius: 4px;
     padding: 25px 0;
 
@@ -83,25 +85,25 @@
   .h3-features {
     margin-top: 30px;
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+    color: $secondary-text-color;
   }
   .p-features {
     margin-top: 10px;
     
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: $main-text-color;
   }
 }
 
@@ -120,8 +122,9 @@
       }
     }
   }
+
   .icon-background {
-    background: #F5F4FA;
+    background: $secondary-page-color;
     border-radius: 4px;
     padding: 25px 0;
 
@@ -132,27 +135,29 @@
       margin: auto;
     }
   }
+  
   .h3-features {
     margin-top: 30px;
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+    color: $secondary-text-color;
   }
+  
   .p-features {
     margin-top: 10px;
     
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: $main-text-color;
   }
 }

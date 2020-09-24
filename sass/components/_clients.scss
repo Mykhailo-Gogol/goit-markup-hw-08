@@ -5,12 +5,12 @@
 }
 
 .h2-clients {
-  font-family: Roboto;
+  font-family: $main-font-family;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $secondary-text-color;
 }
 
 .client-link {
@@ -31,14 +31,14 @@
 
 .clients-item:hover {
   .client-link {
-    border-color: #2196F3;
+    border-color: $accent-page-color;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .client-icon-fill {
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    fill:#2196f3;
+    fill:$accent-page-color;
   }
 }
 
@@ -95,19 +95,24 @@
     margin-bottom: 30px;
     width: calc((100% - 15px*2) / 2);
   }
+
   .client-link {
     height: 90px;
     width: 100%;
   }
+
   .clients-item:nth-child(2n+1) {
     margin-right: 15px;
   }
+
   .clients-item:nth-child(2n) {
     margin-left: 15px;
   }
+
   .clients-item:nth-child(5) {
     margin-bottom: 0;
   }
+  
   .clients-item:nth-child(6) {
     margin-bottom: 0;
   }
@@ -119,6 +124,7 @@
     height: 90px;
     width: 226px;
   }
+
   .clients-item {
     width: calc((100% - 60px) / 3);
 
@@ -147,24 +153,28 @@
   .clients {
     padding: 94px 0;
   }
+
   .clients-list{
     display: flex;
     margin-top: 50px;
   }
+
   .h2-clients {
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: $secondary-text-color;
   }
+
   .client-link {
     height: 90px;
     width: 170px;
   }
+
   .clients-item {
     width: calc((100% - 5*30px) / 6);
 

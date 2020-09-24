@@ -1,44 +1,44 @@
 // Header
 
 .logo-header {
-  font-family: Raleway;
+  font-family: $secondary-font-family;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $secondary-text-color;
     .logo-accent {
-      color: #2196F3;
+      color: $accent-page-color;
     }
 }
 
 .logo-header:visited {
-  color: #212121;
+  color: $secondary-text-color;
     .logo-accent {
-      color: #2196F3;
+      color: $accent-page-color;
     }
 }
 
 // Footer
 
 .logo-footer {
-  font-family: Raleway;
+  font-family: $secondary-font-family;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: $main-page-color;
     .logo-accent {
-      color: #2196F3;
+      color: $accent-page-color;
     }
 }
 
 .logo-footer:visited {
-  color: #ffffff;
+  color: $main-page-color;
     .logo-accent {
-      color: #2196F3;
+      color: $accent-page-color;
     }
 }
 
@@ -50,27 +50,27 @@
 
 @media screen and (min-width: 1200px) {
   .logo-header {
-    font-family: Raleway;
+    font-family: $secondary-font-family;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $secondary-text-color;
       .logo-accent {
-        color: #2196F3;
+        color: $accent-page-color;
       }
   }
   .logo-footer {
-    font-family: Raleway;
+    font-family: $secondary-font-family;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: $main-page-color;
     .logo-accent {
-      color: #2196F3;
+      color: $accent-page-color;
     }
   }
 }

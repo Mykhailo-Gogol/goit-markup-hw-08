@@ -29,7 +29,7 @@
   .h1-hero {
     margin: auto;
     width: 360px;
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 900;
     font-size: 26px;
     line-height: 42px;
@@ -37,7 +37,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: $main-page-color;
   }
   .button-hero {
     display: block;
@@ -47,16 +47,16 @@
     margin-left: auto;
     margin-right: auto;
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
 
-    color: #FFFFFF;
+    color: $main-page-color;
 
-    background: #2196F3;
+    background: $accent-page-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }
@@ -93,7 +93,7 @@
   .h1-hero {
     margin: auto;
     width: 360px;
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 900;
     font-size: 26px;
     line-height: 42px;
@@ -101,7 +101,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: $main-page-color;
   }
   .button-hero {
     display: block;
@@ -111,16 +111,16 @@
     margin-left: auto;
     margin-right: auto;
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
 
-    color: #FFFFFF;
+    color: $main-page-color;
 
-    background: #2196F3;
+    background: $accent-page-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }
@@ -156,7 +156,7 @@
   .h1-hero {
     margin: auto;
     width: 696px;
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -164,7 +164,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: $main-page-color;
   }
   .button-hero {
     display: block;
@@ -174,16 +174,16 @@
     margin-left: auto;
     margin-right: auto;
 
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
 
-    color: #FFFFFF;
+    color: $main-page-color;
 
-    background: #2196F3;
+    background: $accent-page-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }

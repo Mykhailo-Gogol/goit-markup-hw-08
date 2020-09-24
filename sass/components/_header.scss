@@ -25,10 +25,10 @@
       margin: 0;
       padding: 0;
       svg .icon-open{
-        fill: #2196F3;
+        fill: $accent-page-color;
       }
       svg .icon-close{
-        fill: #2196F3;
+        fill: $accent-page-color;
       }
     }
   }
@@ -46,7 +46,7 @@
     }
     .icon-close {
       display: block;
-      fill: #2196F3;
+      fill: $accent-page-color;
     }
    }
 
@@ -62,7 +62,7 @@
     left: 0;
     right: 0;
     padding: 60px 0;
-    background: #fff;
+    background: $main-page-color;
     border-top: 1px solid #ECECEC;
     &.is-open {
       display: block;
@@ -75,25 +75,25 @@
     text-align: center;
   }
   .mobile-menu .link {
-    font-family: Roboto;
+    font-family: $main-font-family;
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: $secondary-text-color;
     &:hover {
-      color: #2196F3;
+      color: $accent-page-color;
     }
   }
 
   .link-list .underline-studio {
-    color: #2196F3;
+    color: $accent-page-color;
 
     &:after {
       content: '';
       display: block;
   
-      background: #2196F3;
+      background: $accent-page-color;
       border-radius: 2px;
       margin-left: auto;
       margin-right: auto;
@@ -105,13 +105,13 @@
   
 
   .link-list .underline-portfolio {
-    color: #2196F3;
+    color: $accent-page-color;
 
     &:after {
       content: '';
       display: block;
   
-      background: #2196F3;
+      background: $accent-page-color;
       border-radius: 2px;
       margin-left: auto;
       margin-right: auto;
@@ -137,32 +137,32 @@
     .icon-mail {
       width: 16px;
       height: 12px;
-      fill: #757575;
+      fill: $main-text-color;
       margin-right: 10px;
     }
     .icon-phone {
       width: 10px;
       height: 15px;
-      fill: #757575;
+      fill: $main-text-color;
       margin-right: 10px;
     }
 
     .link {
-      font-family: Roboto;
+      font-family: $main-font-family;
       font-style: normal;
       font-weight: 500;
       font-size: 18px;
       line-height: 21px;
       letter-spacing: 0.02em;
 
-      color: #757575;
+      color: $main-text-color;
       } 
       .flex:hover {
         .icon-mail {
-          fill: #2196F3;
+          fill: $accent-page-color;
         }
         .icon-phone {
-          fill: #2196F3;
+          fill: $accent-page-color;
         }
       }
     }
@@ -194,41 +194,41 @@
 
     .link {
       display: inline-block;
-      font-family: Roboto;
+      font-family: $main-font-family;
       font-weight: 500;
       font-size: 14px;
       line-height: 16px;
       letter-spacing: 0.02em;
 
-      color: #212121;
+      color: $secondary-text-color;
 
       padding: 32px 0;
       height: 80px;
       &:hover {
-        color:  #2196F3;
+        color:  $accent-page-color;
       }
     }
     .underline-studio {
-      color: #2196F3;
+      color: $accent-page-color;
 
       &:after {
         content: '';
         display: block;
     
-        background: #2196F3;
+        background: $accent-page-color;
         border-radius: 2px;
         height: 4px;
         margin-top: 28px;
       }
     }
     .underline-portfolio {
-      color: #2196F3;
+      color: $accent-page-color;
 
       &:after {
         content: '';
         display: block;
     
-        background: #2196F3;
+        background: $accent-page-color;
         border-radius: 2px;
         height: 4px;
         margin-top: 28px;
@@ -245,36 +245,36 @@
       }
       &:hover {
         .icon-mail {
-          fill: #2196F3;
+          fill: $accent-page-color;
         }
         .icon-phone {
-          fill: #2196F3;
+          fill: $accent-page-color;
         }
         .link {
-          color: #2196F3;
+          color: $accent-page-color;
         }
       }
     }
     .icon-mail {
       width: 16px;
       height: 12px;
-      fill: #757575;
+      fill: $main-text-color;
       margin-right: 10px;
     }
     .icon-phone {
       width: 10px;
       height: 15px;
-      fill: #757575;
+      fill: $main-text-color;
       margin-right: 10px;
     }
     .link {
-      font-family: Roboto;
+      font-family: $main-font-family;
       font-weight: 500;
       font-size: 12px;
       line-height: 14px;
       letter-spacing: 0.02em;
 
-      color: #757575;
+      color: $main-text-color;
     }
   }
 }
@@ -304,41 +304,41 @@
 
     .link {
       display: inline-block;
-      font-family: Roboto;
+      font-family: $main-font-family;
       font-weight: 500;
       font-size: 14px;
       line-height: 16px;
       letter-spacing: 0.02em;
 
-      color: #212121;
+      color: $secondary-text-color;
 
       padding: 32px 0;
       height: 80px;
       &:hover {
-        color:  #2196F3;
+        color:  $accent-page-color;
       }
     }
     .underline-studio {
-      color: #2196F3;
+      color: $accent-page-color;
 
       &:after {
         content: '';
         display: block;
     
-        background: #2196F3;
+        background: $accent-page-color;
         border-radius: 2px;
         height: 4px;
         margin-top: 28px;
       }
     }
     .underline-portfolio {
-      color: #2196F3;
+      color: $accent-page-color;
 
       &:after {
         content: '';
         display: block;
     
-        background: #2196F3;
+        background: $accent-page-color;
         border-radius: 2px;
         height: 4px;
         margin-top: 28px;
@@ -358,36 +358,36 @@
       }
       &:hover {
         .icon-mail {
-          fill: #2196F3;
+          fill: $accent-page-color;
         }
         .icon-phone {
-          fill: #2196F3;
+          fill: $accent-page-color;
         }
         .link {
-          color: #2196F3;
+          color: $accent-page-color;
         }
       }
     }
     .icon-mail {
       width: 16px;
       height: 12px;
-      fill: #757575;
+      fill: $main-text-color;
       margin-right: 10px;
     }
     .icon-phone {
       width: 10px;
       height: 15px;
-      fill: #757575;
+      fill: $main-text-color;
       margin-right: 10px;
     }
     .link {
-      font-family: Roboto;
+      font-family: $main-font-family;
       font-weight: 500;
       font-size: 14px;
       line-height: 16px;
       letter-spacing: 0.02em;
 
-      color: #757575;
+      color: $main-text-color;
     }
   }
 }

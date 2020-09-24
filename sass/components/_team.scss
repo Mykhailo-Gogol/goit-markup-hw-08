@@ -2,48 +2,48 @@
 
 .team {
   padding: 60px 0;
-  background-color: #F5F4FA;;
+  background-color: $secondary-page-color;;
 }
 
 .h2-team {
-  font-family: Roboto;
+  font-family: $main-font-family;
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $secondary-text-color;
 }
 
 .team-card {
-  background: #FFFFFF;
+  background: $main-page-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .card-name {
-  font-family: Roboto;
+  font-family: $main-font-family;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $secondary-text-color;
 
   margin-top: 30px;
 }
 
 .card-desc {
-  font-family: Roboto;
+  font-family: $main-font-family;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: $main-text-color;
 
   margin-top: 10px;
 }
@@ -144,7 +144,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: $secondary-text-color;
   }
   .team-list {
     margin-top: 50px;
@@ -178,11 +178,11 @@
     }
     &:hover {
       .soclink-bg {
-        background: #2196F3;
+        background: $accent-page-color;
         border-radius: 50%;
       }
       .soclink {
-        fill: #fff;
+        fill: $main-page-color;
       }
     }
   }
