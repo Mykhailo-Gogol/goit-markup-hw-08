@@ -4,6 +4,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="Description" content="Put your description here.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/main.min.css" />
 
@@ -24,7 +25,7 @@
           <ul class="link-list">
             <li><a href="index.html" class="link">Студия</a></li>
             <li><a href="portfolio.html" class="link underline-portfolio">Портфолио</a></li>
-            <li><a href="#" class="link">Контакты</a></li>
+            <li><a href="index.html" class="link">Контакты</a></li>
           </ul>
           <ul class="contact-list">
             <li class="flex">
@@ -41,7 +42,7 @@
             </li>
           </ul>
         </div>
-        <button onclick="myFunctionMenu()" id="myIdMenu" class="drop-menu">
+        <button onclick="myFunctionMenu()" id="myIdMenu" class="drop-menu" aria-label="Click to navigate">
           <svg>
             <use class="icon-open" href="./img/sprite-mobile.svg#icon-drop-menu"></use>
             <use class="icon-close" href="./img/sprite-mobile.svg#icon-close-header"></use>
@@ -54,145 +55,175 @@
   <section class="portfolio">
     <div class="container">
       <div class="filtres">
-        <button class="btn-portfolio">
+        <button class="btn-portfolio" aria-label="Click to navigate">
           <span class="btn-text">Все</span>
         </button>
-        <button class="btn-portfolio">
+        <button class="btn-portfolio" aria-label="Click to navigate">
           <span class="btn-text">Веб-сайты</span>
         </button>
-        <button class="btn-portfolio">
+        <button class="btn-portfolio" aria-label="Click to navigate">
           <span class="btn-text">Приложения</span>
         </button>
-        <button class="btn-portfolio">
+        <button class="btn-portfolio" aria-label="Click to navigate">
           <span class="btn-text">Дизайн</span>
         </button>
-        <button class="btn-portfolio">
+        <button class="btn-portfolio" aria-label="Click to navigate">
           <span class="btn-text">Маркетинг</span>
         </button>
       </div>
       <div class="project">
         <ul class="wrap">
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-1"></div>
+
+                <img srcset="
+                ./img/projects/img(1).jpg 1x,
+                ./img/projects/img(1)@2x.jpg 2x
+                " src="./img/projects/img(1).jpg" alt="Веб-сайт" class="img-contain">
+
               </div>
               <div class="card-border">
-                <h4 class="portfolio-card-name">Технокряк</h4>
+                <h3 class="portfolio-card-name">Технокряк</h3>
                 <p class="portfolio-card-desc">Веб-сайт</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-2"></div>
+                <img srcset="
+                ./img/projects/img(2).jpg 1x,
+                ./img/projects/img(2)@2x.jpg 2x
+                " src="./img/projects/img(2).jpg" alt="Дизайн" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name">Постер <span lang="en"> New Orlean vs Golden Star </span></h4>
+                <h3 class="portfolio-card-name">Постер <span lang="en"> New Orlean vs Golden Star </span></h3>
                 <p class="portfolio-card-desc">Дизайн</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-3"></div>
+                <img srcset="
+                ./img/projects/img(3).jpg 1x,
+                ./img/projects/img(3)@2x.jpg 2x
+                " src="./img/projects/img(3).jpg" alt="Приложение" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name">Ресторан <span lang="en">Seafood</span></h4>
+                <h3 class="portfolio-card-name">Ресторан <span lang="en">Seafood</span></h3>
                 <p class="portfolio-card-desc">Приложение</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-4"></div>
+                <img srcset="
+                ./img/projects/img(4).jpg 1x,
+                ./img/projects/img(4)@2x.jpg 2x
+                " src="./img/projects/img(4).jpg" alt="Маркетинг" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name">Проект <span lang="en">Prime</span></h4>
+                <h3 class="portfolio-card-name">Проект <span lang="en">Prime</span></h3>
                 <p class="portfolio-card-desc">Маркетинг</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-5"></div>
+                <img srcset="
+                ./img/projects/img(5).jpg 1x,
+                ./img/projects/img(5)@2x.jpg 2x
+                " src="./img/projects/img(5).jpg" alt="Приложение" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name">Проект <span lang="en">Boxes</span></h4>
+                <h3 class="portfolio-card-name">Проект <span lang="en">Boxes</span></h3>
                 <p class="portfolio-card-desc">Приложение</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-6"></div>
+                <img srcset="
+                ./img/projects/img(6).jpg 1x,
+                ./img/projects/img(6)@2x.jpg 2x
+                " src="./img/projects/img(6).jpg" alt="Веб-сайт" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name" lang="en">Inspiration has no Borders</h4>
+                <h3 class="portfolio-card-name" lang="en">Inspiration has no Borders</h3>
                 <p class="portfolio-card-desc">Веб-сайт</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-7"></div>
+                <img srcset="
+                ./img/projects/img(7).jpg 1x,
+                ./img/projects/img(7)@2x.jpg 2x
+                " src="./img/projects/img(7).jpg" alt="Дизайн" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name">Издание <span lang="en">Limited Edition</span></h4>
+                <h3 class="portfolio-card-name">Издание <span lang="en">Limited Edition</span></h3>
                 <p class="portfolio-card-desc">Дизайн</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
-                  платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-8"></div>
+                  платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                </p>
+                <img srcset="
+                ./img/projects/img(8).jpg 1x,
+                ./img/projects/img(8)@2x.jpg 2x
+                " src="./img/projects/img(8).jpg" alt="Маркетинг" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name">Проект <span lang="en">LAB</span></h4>
+                <h3 class="portfolio-card-name">Проект <span lang="en">LAB</span></h3>
                 <p class="portfolio-card-desc">Маркетинг</p>
               </div>
             </a>
           </li>
           <li class="project-card">
-            <a href="">
+            <a href="index.html">
               <div class="animation-overlay">
                 <p class="text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                   платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                <div class="img-contain-9"></div>
+                <img srcset="
+                ./img/projects/img(9).jpg 1x,
+                ./img/projects/img(9)@2x.jpg 2x
+                " src="./img/projects/img(9).jpg" alt="Приложение" class="img-contain">
               </div>
 
               <div class="card-border">
-                <h4 class="portfolio-card-name" lang="en">Growing Business</h4>
+                <h3 class="portfolio-card-name" lang="en">Growing Business</h3>
                 <p class="portfolio-card-desc">Приложение</p>
               </div>
             </a>
@@ -224,7 +255,7 @@
           </ul>
         </div>
         <div class="soclink-info">
-          <h4 class="welcome-footer">присоединяйтесь</h4>
+          <h3 class="welcome-footer">присоединяйтесь</h3>
           <ul class="footer-soclink-list">
             <li class="soclink-item">
               <a class="footer-soclink-bg" href="https://www.instagram.com/"><svg class="footer-soclink">
@@ -251,7 +282,7 @@
 
           <div class="subscribe-flex">
             <input type="email" name="subscribe" id="subscribe" placeholder="E-mail" class="subscribe-input">
-            <button onclick="myFunction()" class="subscribe-button">
+            <button onclick="myFunction()" class="subscribe-button" aria-label="Click to navigate">
               <span class="subscribe-text">Подписаться</span>
               <svg class="icon-send">
                 <use href="./img/sprite-form.svg#icon-send"></use>
@@ -268,7 +299,7 @@
 
     <div class="modal">
 
-      <button onclick="myFunction()" class="close-btn">
+      <button onclick="myFunction()" class="close-btn" aria-label="Click to navigate">
         <svg class="icon-close-form">
           <use href="./img/sprite-form.svg#icon-close"></use>
         </svg>
@@ -315,7 +346,7 @@
             <input type="checkbox" class="checkbox" name="policy">
             <span class="icon-checkbox"></span>
 
-            <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="">Условия
+            <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="index.html">Условия
                 договора</a></span>
           </label>
 

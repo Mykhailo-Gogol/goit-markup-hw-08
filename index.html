@@ -4,6 +4,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="Description" content="Put your description here.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/main.min.css" />
   <link
@@ -22,7 +23,7 @@
           <ul class="link-list">
             <li><a href="index.html" class="link underline-studio">Студия</a></li>
             <li><a href="portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="#" class="link">Контакты</a></li>
+            <li><a href="index.html" class="link">Контакты</a></li>
           </ul>
           <ul class="contact-list">
             <li class="flex">
@@ -39,7 +40,7 @@
             </li>
           </ul>
         </div>
-        <button onclick="myFunctionMenu()" id="myIdMenu" class="drop-menu">
+        <button onclick="myFunctionMenu()" id="myIdMenu" class="drop-menu" aria-label="Click to navigate">
           <svg>
             <use class="icon-open" href="./img/sprite-mobile.svg#icon-drop-menu"></use>
             <use class="icon-close" href="./img/sprite-mobile.svg#icon-close-header"></use>
@@ -52,7 +53,7 @@
   <section class="hero">
     <div class="container">
       <h1 class="h1-hero">Эффективные решения для вашего бизнеса</h1>
-      <button onclick="myFunction()" class="button-hero">Заказать услугу</button>
+      <button onclick="myFunction()" class="button-hero" aria-label="Click to navigate">Заказать услугу</button>
     </div>
   </section>
 
@@ -65,7 +66,7 @@
               <use href="./img/sprite.svg#icon-Vector"></use>
             </svg>
           </div>
-          <h4 class="h4-features">Внимание к деталям</h4>
+          <h3 class="h3-features">Внимание к деталям</h3>
           <p class="p-features">
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
@@ -77,7 +78,7 @@
               <use href="./img/sprite.svg#icon-Vector1"></use>
             </svg>
           </div>
-          <h4 class="h4-features">Пунктуальность</h4>
+          <h3 class="h3-features">Пунктуальность</h3>
           <p class="p-features">
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
@@ -89,7 +90,7 @@
               <use href="./img/sprite.svg#icon-Vector2"></use>
             </svg>
           </div>
-          <h4 class="h4-features">Планирование</h4>
+          <h3 class="h3-features">Планирование</h3>
           <p class="p-features">
             Равным образом консультация с широким активом в значительной
             степени обуславливает.
@@ -101,7 +102,7 @@
               <use href="./img/sprite.svg#icon-Vector3"></use>
             </svg>
           </div>
-          <h4 class="h4-features">Современные технологии</h4>
+          <h3 class="h3-features">Современные технологии</h3>
           <p class="p-features">
             Значимость этих проблем настолько очевидна, что реализация
             плановых заданий.
@@ -117,22 +118,31 @@
       <ul class="product-list">
         <li class="product-item">
           <div class="wrapper">
-            <img src="./img/product/product(1).jpg" alt="Работа над десктопным приложением" width="370" />
-            <h4 class="product-desc">Десктопные приложения</h4>
+            <img srcset="
+            ./img/product/product(1).jpg 1x,
+            ./img/product/product(1)@2x.jpg 2x
+            " src="./img/product/product(1).jpg" alt="Работа над десктопным приложением" width="370" />
+            <h3 class="product-desc">Десктопные приложения</h3>
           </div>
 
         </li>
         <li class="product-item">
           <div class="wrapper">
-            <img src="./img/product/product(2).jpg" alt="Работа над мобильным приложением" width="370" />
-            <h4 class="product-desc">Мобильные приложения</h4>
+            <img srcset="
+            ./img/product/product(2).jpg 1x,
+            ./img/product/product(2)@2x.jpg 2x
+            " src="./img/product/product(2).jpg" alt="Работа над мобильным приложением" width="370" />
+            <h3 class="product-desc">Мобильные приложения</h3>
           </div>
 
         </li>
         <li class="product-item">
           <div class="wrapper">
-            <img src="./img/product/product(3).jpg" alt="Дизайнер работает на планшете" width="370" />
-            <h4 class="product-desc">Дизайнерские решения</h4>
+            <img srcset="
+            ./img/product/product(3).jpg 1x,
+            ./img/product/product(3)@2x.jpg 2x
+            " src="./img/product/product(3).jpg" alt="Дизайнер работает на планшете" width="370" />
+            <h3 class="product-desc">Дизайнерские решения</h3>
           </div>
 
         </li>
@@ -145,8 +155,11 @@
       <h2 class="h2-team">Наша команда</h2>
       <ul class="team-list">
         <li class="team-card">
-          <img src="./img/team/team(1).jpg" alt="Фото Игорь Демьяненко" />
-          <h4 class="card-name">Игорь Демьяненко</h4>
+          <img srcset="
+          ./img/team/team(1).jpg 1x,
+          ./img/team/team(1)@2x.jpg 2x
+          " src="./img/team/team(1).jpg" alt="Фото Игорь Демьяненко" />
+          <h3 class="card-name">Игорь Демьяненко</h3>
           <p class="card-desc" lang="en">Product Designer</p>
           <ul class="soclink-list">
             <li class="soclink-item"><a class="soclink-bg" href="https://www.instagram.com/"><svg class="soclink">
@@ -164,8 +177,11 @@
           </ul>
         </li>
         <li class="team-card">
-          <img src="./img/team/team(2).jpg" alt="Фото Ольга Репина" />
-          <h4 class="card-name">Ольга Репина</h4>
+          <img srcset="
+          ./img/team/team(2).jpg 1x,
+          ./img/team/team(2)@2x.jpg 2x
+          " src="./img/team/team(2).jpg" alt="Фото Ольга Репина" />
+          <h3 class="card-name">Ольга Репина</h3>
           <p class="card-desc" lang="en">Frontend Developer</p>
           <ul class="soclink-list">
             <li class="soclink-item">
@@ -186,8 +202,11 @@
           </ul>
         </li>
         <li class="team-card">
-          <img src="./img/team/team(3).jpg" alt="Фото Николай Тарасов" />
-          <h4 class="card-name">Николай Тарасов</h4>
+          <img srcset="
+          ./img/team/team(3).jpg 1x,
+          ./img/team/team(3)@2x.jpg 2x
+          " src="./img/team/team(3).jpg" alt="Фото Николай Тарасов" />
+          <h3 class="card-name">Николай Тарасов</h3>
           <p class="card-desc" lang="en">Marketing</p>
           <ul class="soclink-list">
             <li class="soclink-item">
@@ -208,8 +227,11 @@
           </ul>
         </li>
         <li class="team-card">
-          <img src="./img/team/team(4).jpg" alt="Фото Михаил Ермаков" />
-          <h4 class="card-name">Михаил Ермаков</h4>
+          <img srcset="
+          ./img/team/team(4).jpg 1x,
+          ./img/team/team(4)@2x.jpg 2x
+          " src="./img/team/team(4).jpg" alt="Фото Михаил Ермаков" />
+          <h3 class="card-name">Михаил Ермаков</h3>
           <p class="card-desc" lang="en">UI Designer</p>
           <ul class="soclink-list">
             <li class="soclink-item">
@@ -238,35 +260,35 @@
       <h2 class="h2-clients">Постоянные клиенты</h2>
       <ul class="clients-list">
         <li class="clients-item">
-          <a href="#" class="client-link">
+          <a href="index.html" class="client-link">
             <svg class="client-icon-1 client-icon-fill">
               <use href="./img/sprite.svg#icon-logo1"></use>
             </svg>
           </a>
         </li>
         <li class="clients-item">
-          <a href="#" class="client-link">
+          <a href="index.html" class="client-link">
             <svg class="client-icon-2 client-icon-fill">
               <use href="./img/sprite.svg#icon-logo2"></use>
             </svg>
           </a>
         </li>
-        <li class="clients-item"><a href="#" class="client-link">
+        <li class="clients-item"><a href="index.html" class="client-link">
             <svg class="client-icon-3 client-icon-fill">
               <use href="./img/sprite.svg#icon-logo3"></use>
             </svg>
           </a></li>
-        <li class="clients-item"><a href="#" class="client-link">
+        <li class="clients-item"><a href="index.html" class="client-link">
             <svg class="client-icon-4 client-icon-fill">
               <use href="./img/sprite.svg#icon-logo4"></use>
             </svg>
           </a></li>
-        <li class="clients-item"><a href="#" class="client-link">
+        <li class="clients-item"><a href="index.html" class="client-link">
             <svg class="client-icon-5 client-icon-fill">
               <use href="./img/sprite.svg#icon-logo5"></use>
             </svg>
           </a></li>
-        <li class="clients-item"><a href="#" class="client-link">
+        <li class="clients-item"><a href="index.html" class="client-link">
             <svg class="client-icon-6 client-icon-fill">
               <use href="./img/sprite.svg#icon-logo6"></use>
             </svg>
@@ -297,7 +319,7 @@
           </ul>
         </div>
         <div class="soclink-info">
-          <h4 class="welcome-footer">присоединяйтесь</h4>
+          <h3 class="welcome-footer">присоединяйтесь</h3>
           <ul class="footer-soclink-list">
             <li class="soclink-item">
               <a class="footer-soclink-bg" href="https://www.instagram.com/"><svg class="footer-soclink">
@@ -324,7 +346,7 @@
 
           <div class="subscribe-flex">
             <input type="email" name="subscribe" id="subscribe" placeholder="E-mail" class="subscribe-input">
-            <button onclick="myFunction()" class="subscribe-button">
+            <button onclick="myFunction()" class="subscribe-button" aria-label="Click to navigate">
               <span class="subscribe-text">Подписаться</span>
               <svg class="icon-send">
                 <use href="./img/sprite-form.svg#icon-send"></use>
@@ -341,7 +363,7 @@
 
     <div class="modal">
 
-      <button onclick="myFunction()" class="close-btn">
+      <button onclick="myFunction()" class="close-btn" aria-label="Click to navigate">
         <svg class="icon-close-form">
           <use href="./img/sprite-form.svg#icon-close"></use>
         </svg>
@@ -388,11 +410,11 @@
             <input type="checkbox" class="checkbox" name="policy">
             <span class="icon-checkbox"></span>
 
-            <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="">Условия
+            <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="index.html">Условия
                 договора</a></span>
           </label>
 
-          <button type="submit" class="btn-submit">Отправить</button>
+          <button type="submit" class="btn-submit" aria-label="Click to navigate">Отправить</button>
         </form>
       </div>
 

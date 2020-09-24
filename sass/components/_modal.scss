@@ -33,8 +33,6 @@
     left: 0;
     bottom: 0;
     right: 0;
-    overflow-y: scroll;
-    padding: 93px 15px;
   
     background: rgba(0, 0, 0, 0.2);
     z-index: 3;
@@ -65,8 +63,8 @@
   .modal {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    overflow-y: scroll;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
     height: auto;
     background-color: #fff;
@@ -278,7 +276,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    overflow-y: scroll;
     
     height: auto;
     background-color: #fff;
