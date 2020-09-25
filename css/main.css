@@ -774,6 +774,7 @@ img {
 }
 
 .address {
+  font-style: normal;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -1101,7 +1102,7 @@ img {
   }
   .h1-hero {
     margin: auto;
-    width: 360px;
+    max-width: 360px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 26px;
@@ -1811,6 +1812,15 @@ img {
   }
 }
 
+.filtres {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .btn-portfolio {
   display: block;
   padding: 6px 22px;
@@ -1833,7 +1843,24 @@ img {
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 399px) {
+  .filtres {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .btn-portfolio {
+    margin-bottom: 15px;
+  }
+  .btn-portfolio:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
   .filtres {
     margin-bottom: 40px;
     display: -webkit-box;
@@ -1937,7 +1964,13 @@ img {
   pointer-events: none;
   width: 100%;
   height: 100%;
-  padding: 70px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
   background: rgba(33, 150, 243, 0.9);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
